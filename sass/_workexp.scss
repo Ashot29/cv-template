@@ -1,0 +1,39 @@
+.work_experience {
+    padding: 25px;
+    @include box-shadow(1px, 2px, 9px, #333);
+}
+
+.section_element {
+    p {
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+}
+
+.section_element_header {
+    font-weight: $section_element_header_fontweight;
+    font-size: $section_element_header_fontsize;
+    color: $section_element_header_color;
+    margin-bottom: 15px;
+}
+
+.section_header {
+    font-size: $section_header_fontsize;
+    color: $section_header_color;
+    font-weight: $section_header_fontweight;
+    margin-bottom: 20px;
+}
+
+.section_element_date {
+    color: $section_element_date_color;
+    font-weight: $section_element_date_fontweight;
+    font-size: $section_element_date_fontsize;
+    margin-bottom: 10px;
+}
+
+.current_date {
+    background-color: #009688;
+    color: #fff;
+    border-radius: 4px;
+    padding: 3px 8px;
+}

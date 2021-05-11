@@ -1,0 +1,149 @@
+.left_column {
+  background-color: #FFF;
+  color: #757575; }
+
+.nav-img {
+  background-image: url("../css/avatar_hat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: flex-end; }
+  .nav-img .img-name {
+    margin: 10px;
+    font-size: 30px;
+    color: black; }
+
+.nav_content {
+  padding: 16px; }
+
+.nav_desc {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px; }
+  .nav_desc .desc_item {
+    margin: 8px 0; }
+
+.navbar_skills {
+  margin-top: 15px; }
+  .navbar_skills .navbar_header {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 15px; }
+  .navbar_skills .navbar_header_languages {
+    margin-top: 25px; }
+  .navbar_skills .skill_element_name {
+    font-size: 15px;
+    font-weight: normal; }
+  .navbar_skills .percent_two {
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #f1f1f1;
+    height: 30px; }
+    .navbar_skills .percent_two .percent_two_value {
+      height: 100%;
+      width: 50%;
+      display: inline-block;
+      border-radius: 50px;
+      color: white;
+      font-size: 15px;
+      justify-content: center;
+      background-color: #009688; }
+
+.work_experience {
+  padding: 25px;
+  box-shadow: 1px 2px 9px #333; }
+
+.section_element p {
+  font-size: 15px;
+  line-height: 1.5em; }
+
+.section_element_header {
+  font-weight: bolder;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 15px; }
+
+.section_header {
+  font-size: 30px;
+  color: #757575;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+.section_element_date {
+  color: #009688;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px; }
+
+.current_date {
+  background-color: #009688;
+  color: #fff;
+  border-radius: 4px;
+  padding: 3px 8px; }
+
+.education {
+  padding: 25px;
+  box-shadow: 0 0 9px #333; }
+
+.footer_elements {
+  color: #fff;
+  text-align: center; }
+  .footer_elements small {
+    font-size: 16px; }
+  .footer_elements p {
+    margin-top: 15px; }
+    .footer_elements p a {
+      color: #fff; }
+
+* {
+  margin: 0;
+  font-family: sans-serif; }
+
+hr {
+  margin: 40px; }
+
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif; }
+
+.main_container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  min-height: 100vh;
+  grid-template-areas: 'left_column work_experience' 'left_column education'; }
+
+.left_column {
+  grid-area: left_column;
+  box-shadow: 0 0 9px #333; }
+  .left_column .percent {
+    margin: 10px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #f1f1f1; }
+    .left_column .percent .percent_value {
+      width: 50%;
+      display: inline-block;
+      border-radius: 50px;
+      color: white;
+      padding: 2px;
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+      background-color: #009688; }
+
+.work_experience {
+  grid-area: work_experience;
+  background-color: #fff; }
+
+.education {
+  grid-area: education;
+  background-color: #fff; }
+
+.footer {
+  padding: 15px;
+  width: 100%;
+  background-color: #009688; }
